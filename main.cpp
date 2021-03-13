@@ -1,13 +1,14 @@
+// Программа, в которой отображается 5 первых нечетных чисел. Заязаязаязаязаязаязазязаязазязая
 #include<iostream>
 using namespace std;
 int main()
 {
-    for( int i=1;i<=10;i++)
+    for( int i=0;i<=4;i++)
     {
-if (i%2==1)
-{
-            cout<<i<<endl;
-}
+
+
+            cout<<2*i+1<<endl;
+
 
     }
 
